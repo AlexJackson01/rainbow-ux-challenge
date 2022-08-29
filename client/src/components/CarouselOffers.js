@@ -5,19 +5,16 @@ import School from '../images/school.png';
 export default function CarouselOffers() {
   return (
     <div>
-      
-    <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
+<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
   <div className="carousel-indicators">
-  <div className="carousel-buttons">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item">
-        <div className="d-flex">
-        <div className="carousel-card">
+    <div className="carousel-item active">
+    <div className="d-flex">
+    <div className="carousel-card">
             <div className="carousel-content">
                 <h2>Greggs Offers</h2>
                 <p>Stock up your freezer with your Greggs favourites.</p>
@@ -25,7 +22,7 @@ export default function CarouselOffers() {
                 <button type="button" class="btn btn-light">Shop Greggs</button>
             </div>
         </div>
-        <img src={Greggs} className="carousel-image w-50" alt="..." />
+        <img src={Greggs} className="carousel-image w-50" alt="Greggs steak bake with any 3 for £5 deal" />
         </div>
     </div>
     <div className="carousel-item">
@@ -55,11 +52,11 @@ export default function CarouselOffers() {
         </div>
     </div>
   </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Previous</span>
   </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
   </button>

@@ -10,6 +10,9 @@
 .cart-icon {
   height: 20px;
 }
+form {
+  margin-right: 30px;
+}
 
 .sign-in {
   width: 100px;
@@ -32,7 +35,7 @@ button {
   position: absolute;
   top: 0;
   right: 0;
-  padding-right: 160px;
+  padding-right: 180px;
   /* justify-content: space-around; */
 }
 
@@ -75,16 +78,18 @@ a {
 
 .search-box {
   width: 300px;
+  margin-right: 20px;
 }
 
 .carousel {
   width: 75%;
   margin: 0 auto;
+  /* margin-left: 100px; */
 }
 
 .carousel-card {
   /* float: right; */
-  width: 60%; 
+  width: 50%; 
   height: 90%;
   background-color: #D11C2E;
   margin-top: -1px;
@@ -155,18 +160,37 @@ a {
   /* margin-bottom: 80px; */
 }
 
-.carousel-buttons {
-  margin-top: 50px;
-  background: gray;
-  background-color: gray;
-}
 
 .carousel-indicators .active {
   background-color: red;
 }
 
-.carousel-indicators {
-  height: 20px;
-  /* background-color: gray; */
+
+.free-delivery {
+  display: flex;
+  margin: 0 auto;
+}
+
+.delivery-content {
+  display: flex;
+  margin: 0 auto;
+}
+
+.free-icon {
+  height: 40px;
+  margin-right: 40px;
+}
+
+.delivery-btn {
+  width: 120px;
+  background-color: #289573;
+  margin-bottom: 50px;
+  font-size: 12px;
+  margin-top: -6px;
+  margin-left: 40px;
+}
+
+h1 {
+  margin-left: 38px;
 }
 
