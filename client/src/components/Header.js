@@ -19,17 +19,6 @@ export default function Header() {
 
         <Nav />
 
-        {/* <ul className="main-menu">
-            <li className="main-item">Groceries</li>
-            <li className="main-item">Drinks</li>
-            <li className="main-item">Household</li>
-            <li className="main-item">Health & Beauty</li>
-            <li className="main-item">Exclusive Brands</li>
-            <li className="main-item">Deals</li>
-
-            <li className="main-item"><button type="button" className="sign-in btn btn-success">Sign in</button></li>
-            <li className="main-item"><img className="cart-icon" src={Cart} alt="Shopping cart icon" /></li>
-        </ul> */}
     </div>
   )
 }
