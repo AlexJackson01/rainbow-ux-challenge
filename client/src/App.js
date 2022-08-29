@@ -4,6 +4,7 @@ import CarouselOffers from './components/CarouselOffers';
 import Delivery from './components/Delivery';
 import Deals from './components/Deals';
 import PopularCategories from './components/PopularCategories';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -36,7 +37,9 @@ function App() {
       <div id="main"><CarouselOffers /></div>
       <Deals />
       <PopularCategories />
-      <div id="footer"></div><Delivery /></div>
+      <Delivery />
+      <div id="footer"><Footer /></div>
+      </div>
   );
 }
 
