@@ -225,6 +225,7 @@ p {
 .footer {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 h6 {
@@ -254,6 +255,41 @@ h6 {
 
 .footer-items a:hover {
   text-decoration: underline;
+}
+
+.social-section {
+  display: block;
+}
+
+.socials-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.socials-menu li {
+  list-style-type: none;
+  
+}
+
+.socials-title {
+  text-align: center;
+}
+
+
+.social-icons {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.bonus-list {
+  display: block;
+  margin: 0 auto;
+}
+
+.apps-image {
+  height: 75px;
+  margin-right: 40px;
 }
 
 
