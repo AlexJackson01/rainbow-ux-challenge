@@ -2,9 +2,8 @@ import Greggs from '../images/Greggs.png';
 import Slimming from '../images/Slimming.png';
 import School from '../images/School.png';
 // import Play from '../images/play.png';
-// import Pause from '../images/pause.png';
+import Pause from '../images/pause.png';
 import $ from 'jquery';
-import { Play, Pause } from 'react-bootstrap-icons';
 
 
 
@@ -23,9 +22,7 @@ export default function CarouselOffers() {
  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    {/* <button id="pause-button" type="button" class="btn btn-default btn-xs">
-    <Pause className="control-button-icon" size={17} />    
-    </button>   */}
+    <img src={Pause} className="control-button-icon" alt="pause button" /> 
     </div>
     
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -39,7 +36,7 @@ export default function CarouselOffers() {
   </div>
   {/* </div> */}
   <div className="carousel-inner">
-    <div className="carousel-item active">
+    <div className="carousel-item active" data-bs-interval="10000">
       <img src={Greggs} className="d-block w-100" alt="Greggs steak bake with any 3 for £5 deal" />
       <div class="carousel-caption">
         <h2>Greggs Offers</h2>
@@ -48,16 +45,16 @@ export default function CarouselOffers() {
         <button type="button" class="carousel-btn btn btn-light">Shop Greggs</button>
       </div>
     </div>
-    <div className="carousel-item">
+    <div className="carousel-item" data-bs-interval="10000">
       <img src={Slimming} className="d-block w-100" alt="Slimming World potato wedges with any 3 for £6 deal" />
-      <div class="carousel-caption">
+      <div className="carousel-caption">
         <h2>Slimming World</h2>
         <p>We’ve teamed up with Slimming World to create a huge selection of healthy foods so you can enjoy without the guilt. From quarter pounders to cod-cakes - our selection can be enjoyed with our Slimming World chips.</p>
         <p>​Try Iceland’s exclusive range of low-calorie dishes to help keep you on track.</p>
         <button type="button" class="carousel-btn btn btn-light">Shop Slimming World</button>
       </div>
     </div>
-    <div className="carousel-item">
+    <div className="carousel-item" data-bs-interval="10000">
       <img src={School} className="d-block w-100" alt="Woman and child making lunch with any 2 for £2.50 deal" />
       <div class="carousel-caption">
         <h2>Back to School Essentials</h2>
