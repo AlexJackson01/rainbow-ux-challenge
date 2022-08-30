@@ -3,11 +3,11 @@ import Twitter from '../images/twitter.png';
 import Youtube from '../images/youtube.png';
 import Instagram from '../images/instagram.png';
 import Apps from '../images/app-store.png';
+import Award from '../images/good-housekeeping.png';
 
 export default function Footer() {
   return (
     <div className="container">
-        <hr />
         <div className="footer">
             <div className="footer-items">
         <h6>About Iceland</h6>
@@ -27,11 +27,10 @@ export default function Footer() {
         <ul className="footer-list">
             <li><a href="xxx">Store Finder</a></li>
             <li><a href="xxx">My Account</a></li>
-            <li><a href="xxx">Bonus Card</a></li>
+            <li><a href="xxx">Bonus Card - Iceland Rewards</a></li>
             <li><a href="xxx">Free Delivery</a></li>
             <li><a href="xxx">Exclusive Brands</a></li>
             <li><a href="xxx">Careers</a></li>
-            <li><a href="xxx">Iceland Rewards</a></li>
             <li><a href="xxx">Iceland Bingo</a></li>
             <li><a href="xxx">Gift Cards</a></li>
             <li><a href="xxx">Become A Supplier</a></li>
@@ -41,6 +40,7 @@ export default function Footer() {
         <div className="footer-items">
         <h6>Help and Support</h6>
         <ul className="footer-list">
+            <li><a href="xxx">Sitemap</a></li>
             <li><a href="xxx">Contact Us / FAQs</a></li>
             <li><a href="xxx">Refer A Friend</a></li>
             <li><a href="xxx">Product Notices</a></li>
@@ -57,15 +57,33 @@ export default function Footer() {
         <li><img src={Youtube} className="social-icons" alt="Youtube logo" /></li>
         <li><img src={Instagram} className="social-icons" alt="Instagram logo" /></li>
         </ul>
-        </div>
-
+        <br />
         <div className="footer-items">
-        <h6 className="socials-title">Iceland Bonus Card</h6>
+        <h6 className="socials-title">Iceland Bonus Card App</h6>
         <ul className="bonus-list"><br />
             <img src={Apps} className="apps-image" alt="Apple and Google pay buttons" />
         </ul>
         </div>
+
+
         </div>
+        </div>
+        <hr />
+
+        <ul className="footer-items award-footer">
+            <li><img src={Award} className="award-logo" alt="good housekeeping food award winner 2022" /></li>
+            <li>Favourite Online Grocery Service<br/>Winners 2021 & 2022</li>
+        </ul>
+
+        <ul className="footer-items">
+            <li>© Copyright 2022 Iceland Foods Ltd</li>
+        </ul>
+
+        <ul className="footer-items accessibility">
+            <li><a href="xxx">Accessibility</a></li>
+            <li><a href="xxx">Terms & Conditions</a></li>
+            <li><a href="xxx">Privacy & Cookie Policy</a></li>
+        </ul>
     </div>
   )
 }

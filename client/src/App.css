@@ -201,11 +201,28 @@ border-radius: 3px;
 .free-delivery {
   display: flex;
   margin: 0 auto;
+  background-color: #EEEEEE;
+  margin-left: 38px;
+  margin-right: 38px;
+  height: 100px;
+  margin-top: -50px;
+  border-radius: 10px;
+}
+
+.free-delivery li {
+  list-style-type: none;
+}
+
+.delivery-text {
+  font-size: 15px;
+  text-align: center;
 }
 
 .delivery-content {
   display: flex;
+  justify-content: space-around;
   margin: 0 auto;
+  margin-top: 25px;
 }
 
 .free-icon {
@@ -215,10 +232,10 @@ border-radius: 3px;
 }
 
 .delivery-btn {
-  width: 120px;
+  width: 150px;
   background-color: #289573;
   margin-bottom: 50px;
-  font-size: 12px;
+  font-size: 15px;
   margin-top: -6px;
   margin-left: 40px;
 }
@@ -301,9 +318,17 @@ p {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+  margin-left: 38px;
+  margin-right: 38px;
+  margin-top: -30px;
 }
 
 h6 {
+  font-weight: bold;
+  color: #D11C2E;
+}
+
+h4 {
   font-weight: bold;
   color: #D11C2E;
 }
@@ -364,7 +389,30 @@ h6 {
 
 .apps-image {
   height: 75px;
-  margin-right: 40px;
+  display: block;
+  margin: 0 auto;
+  margin-right: 30px;
+}
+
+.accessibility {
+  display: flex;
+  justify-content: right;
+}
+
+.award-footer {
+  display: flex;
+  justify-content: left;
+  margin-top: 30px;
+
+}
+
+.accessibility li {
+  margin: 10px;
+}
+
+.award-logo {
+  height: 50px;
+  margin-top: -5px;
 }
 
 
