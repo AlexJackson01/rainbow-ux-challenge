@@ -5,6 +5,8 @@ import Nav from '../components/Nav';
 
 export default function Header() {
   return (
+    <div>
+
     <div className="container">
         <a href="xxxx"><img className="logo" src={Logo} alt="Iceland the Food Warehouse logo" /></a>
 
@@ -18,7 +20,7 @@ export default function Header() {
         </ul>
 
         <Nav />
-
+        </div>
     </div>
   )
 }
