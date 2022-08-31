@@ -15,7 +15,7 @@ export default function Deals() {
 
   return (
     <div className='spacing container'>
-        <h1 className="h1-title" role="group" aria-label="Browse Deals heading level 1">Browse Deals</h1>
+        <h1 className="h1-title" role="group">Browse Deals</h1>
         <div className="deals-container">
                 <ul className="deals-images">
                     <li><a href="xxx"><img src={Bonus} alt="Bonus Card discounts and cashback offers" /></a></li>

@@ -8,7 +8,7 @@ import School from '../images/School-cat.png';
 export default function PopularCategories() {
   return (
     <div className='container category-spacing'>
-        <h1 className="h1-title" role="group" aria-label="Popular Categories heading level 1">Popular Categories</h1>
+        <h1 className="h1-title" role="group">Popular Categories</h1>
         <div className="category-container">
                 <ul className="category-images">
                     <li><a href="xxx"><img src={Frozen} alt="Frozen foods button" /></a></li>
