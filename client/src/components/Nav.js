@@ -31,7 +31,7 @@ export default function Nav() {
         </li>
       </ul>
       <form className="d-flex" role="search">
-        <input className="search-box form-control me-2" type="search" placeholder="Frozen foods" aria-label="Search" />
+        <input className="search-box form-control me-2" type="search" placeholder="Search products, e.g. frozen foods" aria-label="Search" />
         <a href="xxx"><button className="search-btn" type="submit"><img className="search-icon" src={Search} alt="search-icon" /></button></a>
       </form>
     </div>

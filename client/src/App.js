@@ -15,7 +15,7 @@ function App() {
   }
 
   const goToMain = () => {
-    document.getElementById('nav').scrollIntoView({
+    document.getElementById('main').scrollIntoView({
       behavior: 'smooth'
     });
   }
@@ -34,8 +34,8 @@ function App() {
 
 
       <div id="nav"><Header /></div>
-      <div id="main"><CarouselOffers /></div>
-      <Deals />
+      <CarouselOffers />
+      <div id="main"><Deals /></div>
       <PopularCategories />
       <Delivery />
       <div id="footer"><Footer /></div>
