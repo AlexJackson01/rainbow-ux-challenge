@@ -29,11 +29,11 @@ export default function CarouselOffers() {
     </div>
     <div className="carousel-arrows">
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <button className="carousel-control-prev-icon" aria-label="previous image" aria-hidden="true"></button>
     <span className="visually-hidden">Previous</span>
   </button>
   <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-  <span className="carousel-control-next-icon" aria-hidden="true"></span>
+  <button className="carousel-control-next-icon" aria-label="next image" aria-hidden="true"></button>
     <span className="visually-hidden">Next</span>
   </button>
   </div>
