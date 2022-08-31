@@ -1,4 +1,4 @@
-import Free from '../images/free-delivery.png';
+import Free from '../images/free-shipping.png';
 
 export default function Delivery() {
   return (

@@ -50,16 +50,16 @@ export default function Footer() {
         </div>
 
         <div className="social-section">
-        <h6 className="socials-title">Stay Updated</h6>< br/>
+        <h6>Stay Updated</h6>< br/>
         <ul className="socials-menu">
-        <li><img src={Facebook} className="social-icons" alt="Facebook logo" /></li>
-        <li><img src={Twitter} className="social-icons" alt="Twitter logo" /></li>
-        <li><img src={Youtube} className="social-icons" alt="Youtube logo" /></li>
-        <li><img src={Instagram} className="social-icons" alt="Instagram logo" /></li>
+        <li><img src={Facebook} alt="Facebook logo" /></li>
+        <li><img src={Twitter} alt="Twitter logo" /></li>
+        <li><img src={Youtube} alt="Youtube logo" /></li>
+        <li><img src={Instagram} alt="Instagram logo" /></li>
         </ul>
         <br />
         <div className="footer-items">
-        <h6 className="socials-title">Iceland Bonus Card App</h6>
+        <h6>Iceland Bonus Card App</h6>
         <ul className="bonus-list"><br />
             <img src={Apps} className="apps-image" alt="Apple and Google pay buttons" />
         </ul>

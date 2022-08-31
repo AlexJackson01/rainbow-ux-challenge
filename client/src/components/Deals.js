@@ -5,6 +5,7 @@ import Summer from '../images/Summer-deals.png';
 import Cans from '../images/Multi-cans.png';
 import Fruit from '../images/Fresh-fruit.png';
 import House from '../images/Household.png';
+import Arrow from '../images/expand-arrow.png';
 
 export default function Deals() {
     const [showMore, setShowMore] = useState(true);
@@ -13,7 +14,7 @@ export default function Deals() {
 
   return (
     <div className='spacing container'>
-        <h1>Browse Deals</h1>
+        <h1 className="h1-title">Browse Deals</h1>
         <div className="deals-container">
                 <ul className="deals-images">
                     <li><a href="xxx"><img src={Bonus} alt="Bonus Card discounts and cashback offers" /></a></li>
@@ -31,7 +32,7 @@ export default function Deals() {
             </div>
         )}
         <div className="view-less-deals">
-            <button className="view-less-button" onClick={() => setShowMore(false)}>View less deals ^</button>
+            <button className="view-less-button" onClick={() => setShowMore(false)}><p>View less deals <img src={Arrow} className="view-less-arrow" alt="view less deals" /></p></button>
         </div>
         </div>
 

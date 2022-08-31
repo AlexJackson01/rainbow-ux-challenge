@@ -226,9 +226,9 @@ border-radius: 3px;
 }
 
 .free-icon {
-  height: 40px;
+  height: 75%;
   margin-right: 40px;
-  margin-top: -10px;
+  margin-top: -8px;
 }
 
 .delivery-btn {
@@ -236,7 +236,7 @@ border-radius: 3px;
   background-color: #289573;
   margin-bottom: 50px;
   font-size: 15px;
-  margin-top: -6px;
+  margin-top: 6px;
   margin-left: 40px;
 }
 
@@ -256,14 +256,38 @@ border-radius: 3px;
 .deals-images {
   display: flex;
   justify-content: space-between;
+  margin-right: 38px;
+}
+
+.category-images {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -30px;
+  margin-top: 10px;
+}
+
+.category-container {
+  /* display: inline-block; */
+  /* align-items: center;
+  justify-content: space-evenly; */
+  padding: 20px;
+  margin: 0 auto;
+  margin-left: 38px;
+  margin-right: 38px;
+  background-color: #EEEEEE;
+  margin-top: 20px;
+  border-radius: 10px;
 }
 
 .deals-images li {
   list-style-type: none;
 }
 
-.deals-images img {
-  height: 85%;
+.category-images li {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 5px;
 }
 
 .view-less-deals {
@@ -274,7 +298,12 @@ border-radius: 3px;
 .view-less-button {
   text-align: right;
   border: none;
+  margin-top: 10px;
   background-color: #EEEEEE;
+}
+
+.view-less-arrow {
+  margin-bottom: 10px;
 }
 
 .view-less-button:hover {
@@ -297,9 +326,11 @@ border-radius: 3px;
   margin: 0 auto;
 } */
 
-h1 {
+.h1-title {
   margin-left: 38px;
   padding-top: 50px;
+  font-weight: bold;
+  font-size: 32px;
 }
 
 h2 {
@@ -363,23 +394,19 @@ h4 {
 
 .socials-menu {
   display: flex;
+  margin-left: -35px;
   justify-content: space-between;
-  align-items: left;
+  /* align-items: left; */
+  /* margin-right: 38px; */
 }
 
 .socials-menu li {
   list-style-type: none;
-  
 }
 
-.socials-title {
-  text-align: center;
-}
-
-
-.social-icons {
-  height: 30px;
-  margin-right: 10px;
+.socials-menu img {
+  height: 85%;
+  /* margin-right: 10px; */
 }
 
 .bonus-list {
@@ -389,9 +416,9 @@ h4 {
 
 .apps-image {
   height: 75px;
-  display: block;
+  /* display: block; */
   margin: 0 auto;
-  margin-right: 30px;
+  margin-left: -30px;
 }
 
 .accessibility {
