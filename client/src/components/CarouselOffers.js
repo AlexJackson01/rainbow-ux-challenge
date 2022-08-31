@@ -16,16 +16,18 @@ export default function CarouselOffers() {
 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
     <div className="carousel-controls">
   <div className="carousel-indicators">
+    <div className="carousel-arrows">
   {/* <button id="play-button" type="button" class="btn btn-default btn-xs">
   <Play className="control-button-icon" size={17} /> 
  </button>     */}
  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <h3 className="line">|</h3>
-    <a href="xxx"><img src={Pause} className="pause-button" alt="pause button" /></a>
     </div>
-    
+    <h3 className="line">|</h3>
+    <a href="xxx"><img src={Pause} className="pause" alt="pause button" /></a>
+    </div>
+    <div className="carousel-arrows">
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Previous</span>
@@ -34,6 +36,7 @@ export default function CarouselOffers() {
   <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
   </button>
+  </div>
   </div>
   {/* </div> */}
   <div className="carousel-inner">

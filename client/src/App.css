@@ -131,84 +131,39 @@ border-radius: 3px;
 
 .carousel-indicators .active {
   background-color: red;
-  margin-bottom: -50px;
+  /* margin-bottom: -50px; */
 }
 
 .carousel-indicators {
-  position: absolute;
-  bottom: 15%;
-  /* background-color: rgb(202, 202, 202); */
-  padding-bottom: 10px;
-  margin: 5px;
-  height: 30px;
-  /* padding-top: 200px; */
-}
-
-.control-buttons {
-  border: none;
-  /* background-color: rgb(202, 202, 202); */
-  width: 100vw;
-}
-
-.control-button-icon {
-  /* display: block; */
-  /* margin-top: 10px; */
-  /* margin-left: 100px; */
-  height: 10px;
-  /* margin-bottom: 8px; */
+  top: 105%;
 }
 
 .spacing {
   padding-top: 50px;
 }
 
-.carousel-controls {
-  width: 75%;
-  height: 50px;
-  position: absolute;
-  top: 400px;
-  right: 30px;
-  left: 492px;
-}
-
-.carousel-controls button {
-  margin-top: 80px;
-  margin: 60px 50px;
-}
-
-.carousel-control.prev {
-  margin-left: -150px;
-}
-
 .carousel-control-prev-icon {
-  margin-top: -72px;
+  margin-right: 80px;
   height: 25px;
-  z-index:-1;
-  top: -50px;
-  /* left: 20px; */
-  margin-left: 51px;
+  margin-top: 450px;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 
 }
 
 .carousel-control-next-icon {
-  margin-top: -71px;
+  margin-left: 80px;
   height: 25px;
+  margin-top: 450px;
   margin-right: 50px;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-.carousel-controls {
-  background-color: #EEEEEE;
-  width: 648px;
-}
-
 .carousel .carousel-indicators button {
-  width: 10px;
- height: 10px;
+  width: 15px;
+ height: 15px;
  border-radius: 100%;
  border: 1px solid black;
- margin-top: 10px;
+ margin-top: 7px;
 }
 
 .line {
@@ -218,10 +173,21 @@ border-radius: 3px;
   margin-top: 5px;
 }
 
+.carousel-controls {
+  margin-top: 100px;
+  background-color: red !important;
+}
+
+.pause {
+  margin-left: 30px;
+  border: white;
+  outline: none;
+  /* height: 95%; */
+}
+
 .pause-button {
-  margin-left: 50px;
-  margin-top: 5px;
-  height: 95%;
+  display: inline;
+  /* height: 95%; */
 }
 
 .free-delivery {
@@ -281,13 +247,15 @@ border-radius: 3px;
 
 .deals-images {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  width: 100%;
   margin-right: 38px;
 }
 
 .category-images {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  width: 100%;
   margin-left: -30px;
   margin-top: 10px;
 }
