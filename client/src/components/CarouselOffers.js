@@ -2,7 +2,7 @@ import Greggs from '../images/Greggs.png';
 import Slimming from '../images/Slimming.png';
 import School from '../images/School.png';
 // import Play from '../images/play.png';
-import Pause from '../images/pause.png';
+import Pause from '../images/pause-button.png';
 import $ from 'jquery';
 
 
@@ -22,7 +22,8 @@ export default function CarouselOffers() {
  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <img src={Pause} className="control-button-icon" alt="pause button" /> 
+    <h3 className="line">|</h3>
+    <a href="xxx"><img src={Pause} className="pause-button" alt="pause button" /></a>
     </div>
     
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
