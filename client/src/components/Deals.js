@@ -11,8 +11,6 @@ import DownArrow from '../images/more-arrow.png';
 export default function Deals() {
     const [showMore, setShowMore] = useState(true);
 
-
-
   return (
     <div className='spacing container'>
         <h1 className="h1-title" aria-label="Browse Deals heading level 1">Browse Deals</h1>
@@ -33,7 +31,10 @@ export default function Deals() {
             </div>
         )}
         <div className="view-less-deals">
-            <button className="view-less-button" onClick={() => setShowMore(!showMore)}>{showMore ? <p>View less deals <img src={UpArrow} className="view-less-arrow" alt="view less deals" /></p> : <p>View more deals <img src={DownArrow} className="view-less-arrow" alt="view less deals" /></p>}</button>
+            <button className="view-less-button" onClick={() => setShowMore(!showMore)}>
+                {showMore ? <p>View less deals <img src={UpArrow} className="view-less-arrow" alt="view less deals" /></p> : 
+                <p>View more deals <img src={DownArrow} className="view-less-arrow" alt="view less deals" /></p>}
+            </button>
         </div>
         </div>
 
